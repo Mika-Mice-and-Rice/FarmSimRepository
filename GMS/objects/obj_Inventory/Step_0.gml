@@ -1,6 +1,15 @@
 /// @description update inventory location
-if(visible = true)
+if (follow != noone)
 {
-	x = obj_Player.x - 135;
-	y = (obj_Player.y - 150);
+	xTo = follow.x;
+	yTo = follow.y;
+}
+if(vis = true)
+{
+	x += (xTo - x) / 25;
+	y += (yTo - y) / 25;
+}else
+{
+x = obj_Camera.x ;
+y = obj_Camera.y + 455;
 }

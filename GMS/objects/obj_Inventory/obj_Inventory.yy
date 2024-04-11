@@ -10,8 +10,8 @@
   "name":"obj_Inventory",
   "overriddenProperties":[],
   "parent":{
-    "name":"Rooms",
-    "path":"folders/Rooms.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_inventory",
-    "path":"sprites/spr_inventory/spr_inventory.yy",
+    "name":"spr_Inventory_Grid",
+    "path":"sprites/spr_Inventory_Grid/spr_Inventory_Grid.yy",
   },
   "spriteMaskId":null,
   "visible":true,
