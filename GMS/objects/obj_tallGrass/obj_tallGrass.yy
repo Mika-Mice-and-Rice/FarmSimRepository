@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_tilledground",
+  "%Name":"obj_tallGrass",
   "eventList":[],
   "managed":true,
-  "name":"obj_tilledground",
+  "name":"obj_tallGrass",
   "overriddenProperties":[],
   "parent":{
     "name":"Rooms",
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_tilledground",
-    "path":"sprites/spr_tilledground/spr_tilledground.yy",
+    "name":"spr_tallGrass",
+    "path":"sprites/spr_tallGrass/spr_tallGrass.yy",
   },
   "spriteMaskId":null,
   "visible":true,

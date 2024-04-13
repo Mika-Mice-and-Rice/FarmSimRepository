@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_shop",
+  "%Name":"tilledGround",
   "eventList":[],
   "managed":true,
-  "name":"obj_shop",
+  "name":"tilledGround",
   "overriddenProperties":[],
   "parent":{
     "name":"Rooms",
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_shopTable",
-    "path":"sprites/spr_shopTable/spr_shopTable.yy",
+    "name":"spr_tilledGroud",
+    "path":"sprites/spr_tilledGroud/spr_tilledGroud.yy",
   },
   "spriteMaskId":null,
   "visible":true,
