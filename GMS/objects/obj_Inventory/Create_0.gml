@@ -1,8 +1,6 @@
 /// @description creates array for item IDs
 //15 items, first 5 is hotbar
-
+y = obj_Camera.y + 455;
 inventoryArray = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
-x = obj_Player.x;
-y = obj_Player.y;
 vis = false;
-
+Inventory_create();

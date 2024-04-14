@@ -48,7 +48,6 @@
     {"name":"spr_Inven_Grid_3","order":16,"path":"sprites/spr_Inven_Grid_3/spr_Inven_Grid_3.yy",},
     {"name":"spr_Inven_Grid_4","order":17,"path":"sprites/spr_Inven_Grid_4/spr_Inven_Grid_4.yy",},
     {"name":"spr_Inven_Grid_5","order":18,"path":"sprites/spr_Inven_Grid_5/spr_Inven_Grid_5.yy",},
-    {"name":"spr_Inventory_Grid","order":8,"path":"sprites/spr_Inventory_Grid/spr_Inventory_Grid.yy",},
     {"name":"spr_PauseMenu","order":10,"path":"sprites/spr_PauseMenu/spr_PauseMenu.yy",},
     {"name":"spr_Player","order":6,"path":"sprites/spr_Player/spr_Player.yy",},
     {"name":"spr_resume","order":11,"path":"sprites/spr_resume/spr_resume.yy",},
