@@ -1,15 +1,10 @@
 /// @description update inventory location
-if (follow != noone)
+
+if(vis = true && obj_Camera.y < y)
 {
-	xTo = follow.x;
-	yTo = follow.y;
+y = y - 12; 
 }
-if(vis = true)
-{
-	x += (xTo - x) / 25;
-	y += (yTo - y) / 25;
-}else
-{
+if(vis = false){
 x = obj_Camera.x ;
 y = obj_Camera.y + 455;
 }
