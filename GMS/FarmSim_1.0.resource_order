@@ -20,11 +20,12 @@
   "ResourceOrderSettings":[
     {"name":"obj_Camera","order":1,"path":"objects/obj_Camera/obj_Camera.yy",},
     {"name":"obj_FarmToTown","order":2,"path":"objects/obj_FarmToTown/obj_FarmToTown.yy",},
-    {"name":"obj_TownToFarm","order":3,"path":"objects/obj_TownToFarm/obj_TownToFarm.yy",},
     {"name":"obj_Interact","order":2,"path":"objects/obj_Interact/obj_Interact.yy",},
     {"name":"obj_Inventory","order":3,"path":"objects/obj_Inventory/obj_Inventory.yy",},
     {"name":"obj_Player","order":4,"path":"objects/obj_Player/obj_Player.yy",},
+    {"name":"obj_TownToFarm","order":3,"path":"objects/obj_TownToFarm/obj_TownToFarm.yy",},
     {"name":"obj_Wall","order":5,"path":"objects/obj_Wall/obj_Wall.yy",},
+    {"name":"daynightcycle","order":1,"path":"objects/daynightcycle/daynightcycle.yy",},
     {"name":"room_Town","order":1,"path":"rooms/room_Town/room_Town.yy",},
     {"name":"spr_Bed","order":4,"path":"sprites/spr_Bed/spr_Bed.yy",},
     {"name":"spr_Empty","order":9,"path":"sprites/spr_Empty/spr_Empty.yy",},
