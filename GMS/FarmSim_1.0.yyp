@@ -44,7 +44,6 @@
     {"id":{"name":"obj_Inventory","path":"objects/obj_Inventory/obj_Inventory.yy",},},
     {"id":{"name":"obj_Player","path":"objects/obj_Player/obj_Player.yy",},},
     {"id":{"name":"obj_RoomGateParent","path":"objects/obj_RoomGateParent/obj_RoomGateParent.yy",},},
-    {"id":{"name":"obj_RoomTransitionParent","path":"objects/obj_RoomTransitionParent/obj_RoomTransitionParent.yy",},},
     {"id":{"name":"obj_Wall","path":"objects/obj_Wall/obj_Wall.yy",},},
     {"id":{"name":"room_Farm","path":"rooms/room_Farm/room_Farm.yy",},},
     {"id":{"name":"room_Town","path":"rooms/room_Town/room_Town.yy",},},

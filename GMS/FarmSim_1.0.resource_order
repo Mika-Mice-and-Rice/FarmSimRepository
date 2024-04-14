@@ -24,7 +24,6 @@
     {"name":"obj_Interact","order":2,"path":"objects/obj_Interact/obj_Interact.yy",},
     {"name":"obj_Inventory","order":3,"path":"objects/obj_Inventory/obj_Inventory.yy",},
     {"name":"obj_Player","order":4,"path":"objects/obj_Player/obj_Player.yy",},
-    {"name":"obj_RoomTransitionParent","order":1,"path":"objects/obj_RoomTransitionParent/obj_RoomTransitionParent.yy",},
     {"name":"obj_Wall","order":5,"path":"objects/obj_Wall/obj_Wall.yy",},
     {"name":"room_Town","order":1,"path":"rooms/room_Town/room_Town.yy",},
     {"name":"spr_Bed","order":4,"path":"sprites/spr_Bed/spr_Bed.yy",},
