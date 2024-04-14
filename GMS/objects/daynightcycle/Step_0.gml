@@ -1,7 +1,7 @@
 time_current += 1;
 if (time_current >= time_total) {
     time_current = 0;
-    is_day = !is_daytime;
+    is_day = !is_day;
 }
 
 if (is_day) {
