@@ -28,7 +28,8 @@ function Inventory_Draw(slot)
 {
 	if(global.inventory_Array[slot] != 0)
 	{
-	switch (global.inventory_Array[slot]) {
+	switch (global.inventory_Array[slot]) 
+	 {
 	    case 1:
 	        draw_sprite(spr_Hoe, 1,(obj_Inventory.x), (obj_Inventory.y));
 			draw_set_halign(fa_right);
@@ -38,7 +39,6 @@ function Inventory_Draw(slot)
 	    default:
 	         //code here
 	        break;
+	 }
 	}
-	}
-
 }
