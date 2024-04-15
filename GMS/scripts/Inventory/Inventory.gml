@@ -42,3 +42,8 @@ function Inventory_Draw(slot)
 	}
 
 }
+
+//function Inventory_Add(id)
+//{
+	
+//}

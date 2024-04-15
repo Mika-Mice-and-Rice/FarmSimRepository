@@ -8,6 +8,8 @@ if point_in_rectangle(mouse_x, mouse_y, x - 32, y - 32, x + 32, y + 32)
 			instance_destroy();
 		}
 		
+		
+		
 		if !audio_is_playing(snd_menu_click)
 		{
 			audio_play_sound(snd_menu_click, 1, false);
