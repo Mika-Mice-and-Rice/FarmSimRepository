@@ -6,5 +6,5 @@ y = y - 12;
 }
 if(vis = false){
 x = obj_Camera.x ;
-//y = obj_Camera.y + 455;
+y = obj_Camera.y + 455;
 }
