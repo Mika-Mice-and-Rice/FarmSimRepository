@@ -28,9 +28,10 @@ function Inventory_Draw(slot)
 {
 	if(global.inventory_Array[slot] != 0)
 	{
-	switch (global.inventory_Array[slot]) {
+	switch (global.inventory_Array[slot]) 
+	 {
 	    case 1:
-	        draw_sprite(spr_Hoe, 1,(obj_Inventory.x), (obj_Inventory.y));
+	        draw_sprite(spr_Hoe, 1,(obj_Inventory.x / 5), (obj_Inventory.y / 3));
 			draw_set_halign(fa_right);
 			draw_set_colour(c_yellow);
 			draw_text(obj_Inventory.x, obj_Inventory.y, "SCORE:");
@@ -38,7 +39,9 @@ function Inventory_Draw(slot)
 	    default:
 	         //code here
 	        break;
+	 }
 	}
+<<<<<<< HEAD
 	}
 
 }
@@ -47,3 +50,6 @@ function Inventory_Draw(slot)
 //{
 	
 //}
+=======
+}
+>>>>>>> b1485d452752fdff9f46dd6a6050cbc175fb96fd
