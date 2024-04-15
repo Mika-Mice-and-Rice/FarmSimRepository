@@ -41,15 +41,4 @@ function Inventory_Draw(slot)
 	        break;
 	 }
 	}
-<<<<<<< HEAD
-	}
-
 }
-
-//function Inventory_Add(id)
-//{
-	
-//}
-=======
-}
->>>>>>> b1485d452752fdff9f46dd6a6050cbc175fb96fd
