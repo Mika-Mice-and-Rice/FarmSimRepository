@@ -1,11 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"Settings",
-  "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_SettingsMenu",
+  "eventList":[],
   "managed":true,
-  "name":"Settings",
+  "name":"obj_SettingsMenu",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -30,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_Settings",
-    "path":"sprites/spr_Settings/spr_Settings.yy",
+    "name":"spr_SettingsMenu",
+    "path":"sprites/spr_SettingsMenu/spr_SettingsMenu.yy",
   },
   "spriteMaskId":null,
   "visible":true,
