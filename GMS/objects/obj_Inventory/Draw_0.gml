@@ -1,3 +1,2 @@
-draw_self();
-//draw_sprite(spr_Hoe, 1,(obj_Inventory.x ), (obj_Inventory.y ))
-Inventory_Draw(1);
+/// @description Insert description here
+// You can write your code in this editor
