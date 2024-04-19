@@ -8,5 +8,6 @@ if(vis = false){
 x = obj_Camera.x ;
 y = obj_Camera.y + 455;
 }
-
+invx = x;
+invy = y;
 //Inventory_Draw(1);

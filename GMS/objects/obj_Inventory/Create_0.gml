@@ -2,3 +2,5 @@
 //15 items, first 5 is hotbar
 vis = false;
 Inventory_create();
+invx = x;
+invy = y;
