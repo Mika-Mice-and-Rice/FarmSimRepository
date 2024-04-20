@@ -3,10 +3,10 @@ function Inventory_create()
  if(!variable_instance_exists(id, "ran"))
  {
  ran = true;
- global.inventory_Array = [1, 2, 3, 8, 7, 6, 5, 4, 3, 2, 1, 8, 7, 6, 5];
- global.inventory_Array_Quanity = [2, 2, 3, 0, 0, 7, 0, 0, 0, 8, 0, 0, 9, 0, 102];
+ global.inventory_Array = [1, 2, 3, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+ global.inventory_Array_Quanity = [2, 2, 3, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
  //1 means it is a tool and can only be one in the slot
- global.inventory_Array_Is_Tool = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+ global.inventory_Array_Is_Tool = [1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
  //creates the arrays for item attributes only once and makes them global
  }
 }
@@ -15,15 +15,28 @@ function Inventory_Add(ID, quant, isTool)
 	//adds items to the inventory by providing the id(see notes), the quanity, 
 	//and 0 for not tool, 1 for is tool)
 	open = false;
-for (var i = 0; i < 16 && open = false; ++i) {
-	if(global.inventory_Array[i] = 0)
-	{
+	//this checks if other slots have overlap
+	for(var bby = 0; bby < 15; ++bby){
+		
+	if(array_get(global.inventory_Array, bby) = ID 
+	&& array_get(global.inventory_Array_Is_Tool, bby) != 1){
+		
+	array_set(global.inventory_Array_Quanity, bby,
+	((array_get(global.inventory_Array_Quanity, bby) + quant)));
+	return;
+	}
+	}
+for (var i = 0; i < 15 && open = false; ++i) {
+	//adds more to quanity if it is already in inventory, and not a tool
+	if(global.inventory_Array[i] = 0){
+		
 	open = true;
 	array_set(global.inventory_Array, i, ID);
 	array_set(global.inventory_Array_Quanity, i, quant);
 	array_set(global.inventory_Array_Is_Tool, i, isTool);
+	return;
 	}
-	if(i = 16)
+	if(i = 15)
 	{
 	//no room code
 	}   
@@ -62,5 +75,4 @@ switch (array_get(global.inventory_Array, value)) {
 	 return spr_Wheat;
 	 break;
 }
-
 }
