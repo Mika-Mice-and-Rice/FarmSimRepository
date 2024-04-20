@@ -39,6 +39,13 @@ for (var i = 0; i < 15 && open = false; ++i) {
 	if(i = 15)
 	{
 	//no room code
+	//creates a dropped item if there is no room in the inventory
+	objecter = instance_create_layer(obj_Player.x, obj_Player.y, "Drops", obj_Dropped_Item);
+	objecter.ID = ID;
+	objecter.Quanity = quant;
+	objecter.Is_tool = isTool;
+	alarm[0] = .5*room_speedl;
+	//object_set_sprite(objecter, Inventory_Get_Sprite(ID));
 	}   
 }
 }
