@@ -1,15 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"Resume",
-  "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_CreditsMenu",
+  "eventList":[],
   "managed":true,
-  "name":"Resume",
+  "name":"obj_CreditsMenu",
   "overriddenProperties":[],
   "parent":{
-    "name":"room transitions",
-    "path":"folders/Objects/room transitions.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_resume",
-    "path":"sprites/spr_resume/spr_resume.yy",
+    "name":"spr_CreditsMenu",
+    "path":"sprites/spr_CreditsMenu/spr_CreditsMenu.yy",
   },
   "spriteMaskId":null,
   "visible":true,

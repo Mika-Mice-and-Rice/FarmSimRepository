@@ -8,8 +8,8 @@
   "name":"Exit",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"room transitions",
+    "path":"folders/Objects/room transitions.yy",
   },
   "parentObjectId":null,
   "persistent":false,
