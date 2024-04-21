@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"Resume",
+  "%Name":"Credits",
   "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Resume",
+  "name":"Credits",
   "overriddenProperties":[],
   "parent":{
     "name":"room transitions",
@@ -29,10 +29,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_resume",
-    "path":"sprites/spr_resume/spr_resume.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
