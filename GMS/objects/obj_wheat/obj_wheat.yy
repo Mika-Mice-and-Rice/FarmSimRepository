@@ -1,9 +1,7 @@
 {
   "$GMObject":"",
   "%Name":"obj_wheat",
-  "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "eventList":[],
   "managed":true,
   "name":"obj_wheat",
   "overriddenProperties":[],
@@ -30,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_wheat",
-    "path":"sprites/spr_wheat/spr_wheat.yy",
+    "name":"spr_Wheat",
+    "path":"sprites/spr_Wheat/spr_Wheat.yy",
   },
   "spriteMaskId":null,
   "visible":true,
