@@ -4,7 +4,7 @@ function Inventory_create()
  {
  ran = true;
  global.inventory_Array = [1, 2, 3, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
- global.inventory_Array_Quanity = [2, 2, 3, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+ global.inventory_Array_Quanity = [1, 1, 1, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
  //1 means it is a tool and can only be one in the slot
  global.inventory_Array_Is_Tool = [1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
  //creates the arrays for item attributes only once and makes them global
@@ -52,12 +52,17 @@ for (var i = 0; i < 15 && open = false; ++i) {
 function Inventory_Subtract(ID, quant)
 {
 	for (var i = 0; i < 15; ++i) {
+		//sets the quanity to ival
+		//ival = array_get(global.inventory_Array_Quanity, i);
 		//finds correct item
 	    if(array_get(global.inventory_Array, i) = ID){
+			
 			//make sure it wont go into negatives
-			if(((array_get(global.inventory_Array_Quanity, i)) - quanity) >= 0){
+			if(((array_get(global.inventory_Array_Quanity, i)) - quant) >= 0){
+				
 				//subtracts amount
-				array_set(global.inventory_Array_Quanity, i,(global.inventory_Array_Quanity[i] - quanity));
+				array_set(global.inventory_Array_Quanity, i,(global.inventory_Array_Quanity[i] - quant));
+				
 				//if its zero left, removes the item from the array
 				if(array_get(global.inventory_Array_Quanity, i) = 0){
 					
