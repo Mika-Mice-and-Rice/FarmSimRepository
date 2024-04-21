@@ -1,9 +1,7 @@
 {
   "$GMObject":"",
   "%Name":"obj_potato",
-  "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "eventList":[],
   "managed":true,
   "name":"obj_potato",
   "overriddenProperties":[],
@@ -28,10 +26,10 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":true,
+  "solid":false,
   "spriteId":{
-    "name":"spr_potato",
-    "path":"sprites/spr_potato/spr_potato.yy",
+    "name":"spr_Potato",
+    "path":"sprites/spr_Potato/spr_Potato.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_PauseMenu",
+  "%Name":"obj_inventory_select",
   "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":27,"eventType":9,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_PauseMenu",
+  "name":"obj_inventory_select",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -30,9 +30,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_PauseMenu",
-    "path":"sprites/spr_PauseMenu/spr_PauseMenu.yy",
+    "name":"spr_inven_Select",
+    "path":"sprites/spr_inven_Select/spr_inven_Select.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

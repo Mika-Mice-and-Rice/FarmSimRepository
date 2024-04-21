@@ -1,11 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_PauseMenu",
-  "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":27,"eventType":9,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_apple",
+  "eventList":[],
   "managed":true,
-  "name":"obj_PauseMenu",
+  "name":"obj_apple",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -30,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_PauseMenu",
-    "path":"sprites/spr_PauseMenu/spr_PauseMenu.yy",
+    "name":"spr_Apple",
+    "path":"sprites/spr_Apple/spr_Apple.yy",
   },
   "spriteMaskId":null,
   "visible":true,

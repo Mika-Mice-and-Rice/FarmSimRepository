@@ -1,11 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_PauseMenu",
-  "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":27,"eventType":9,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_corn",
+  "eventList":[],
   "managed":true,
-  "name":"obj_PauseMenu",
+  "name":"obj_corn",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -30,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_PauseMenu",
-    "path":"sprites/spr_PauseMenu/spr_PauseMenu.yy",
+    "name":"spr_Corn",
+    "path":"sprites/spr_Corn/spr_Corn.yy",
   },
   "spriteMaskId":null,
   "visible":true,
