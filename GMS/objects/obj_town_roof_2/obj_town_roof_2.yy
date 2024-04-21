@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_house_roof_2",
-    "path":"sprites/spr_house_roof_2/spr_house_roof_2.yy",
+    "name":"spr_town_roof_2",
+    "path":"sprites/spr_town_roof_2/spr_town_roof_2.yy",
   },
   "spriteMaskId":null,
   "visible":true,
