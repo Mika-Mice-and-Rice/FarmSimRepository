@@ -18,38 +18,62 @@ function Inventory_Add(ID, quant, isTool)
 	//this checks if other slots have overlap
 	for(var bby = 0; bby < 15; ++bby){
 		
-	if(array_get(global.inventory_Array, bby) = ID 
-	&& array_get(global.inventory_Array_Is_Tool, bby) != 1){
+		if(array_get(global.inventory_Array, bby) = ID 
+		&& array_get(global.inventory_Array_Is_Tool, bby) != 1){
 		
-	array_set(global.inventory_Array_Quanity, bby,
-	((array_get(global.inventory_Array_Quanity, bby) + quant)));
-	return;
-	}
-	}
+				array_set(global.inventory_Array_Quanity, bby,
+				((array_get(global.inventory_Array_Quanity, bby) + quant)));
+				return;
+			}
+		}
 for (var i = 0; i < 15 && open = false; ++i) {
 	//adds more to quanity if it is already in inventory, and not a tool
 	if(global.inventory_Array[i] = 0){
 		
-	open = true;
-	array_set(global.inventory_Array, i, ID);
-	array_set(global.inventory_Array_Quanity, i, quant);
-	array_set(global.inventory_Array_Is_Tool, i, isTool);
-	return;
+		open = true;
+		array_set(global.inventory_Array, i, ID);
+		array_set(global.inventory_Array_Quanity, i, quant);
+		array_set(global.inventory_Array_Is_Tool, i, isTool);
+		return;
 	}
 	if(i = 15)
 	{
 	//no room code
 	//creates a dropped item if there is no room in the inventory
-	objecter = instance_create_layer(obj_Player.x, obj_Player.y, "Drops", obj_Dropped_Item);
-	objecter.ID = ID;
-	objecter.Quanity = quant;
-	objecter.Is_tool = isTool;
-	alarm[0] = .5*room_speedl;
+		objecter = instance_create_layer(obj_Player.x, obj_Player.y, "Drops", obj_Dropped_Item);
+		objecter.ID = ID;
+		objecter.Quanity = quant;
+		objecter.Is_tool = isTool;
+		alarm[0] = .5*room_speedl;
 	//object_set_sprite(objecter, Inventory_Get_Sprite(ID));
 	}   
 }
 }
-
+function Inventory_Subtract(ID, quant)
+{
+	for (var i = 0; i < 15; ++i) {
+		//finds correct item
+	    if(array_get(global.inventory_Array, i) = ID){
+			//make sure it wont go into negatives
+			if(((array_get(global.inventory_Array_Quanity, i)) - quanity) >= 0){
+				//subtracts amount
+				array_set(global.inventory_Array_Quanity, i,(global.inventory_Array_Quanity[i] - quanity));
+				//if its zero left, removes the item from the array
+				if(array_get(global.inventory_Array_Quanity, i) = 0){
+					
+					array_set(global.inventory_Array, i, 0);
+					array_set(global.inventory_Array_Is_Tool, i, 0);
+				}
+				return;
+			}
+			else{
+				//put code for impossible transaction AKA goes into negatives
+				
+				return;
+			}
+		}
+	}
+}
 function Inventory_Get_Sprite(value)
 //gets the sprite from the Inventory_array ID
 {
