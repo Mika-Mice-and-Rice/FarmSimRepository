@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"GMS",
-    "path":"GMS.yyp",
+    "name":"FarmSim",
+    "path":"FarmSim.yyp",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
