@@ -1,3 +1,0 @@
-function Popup(text, sprite){
-
-}

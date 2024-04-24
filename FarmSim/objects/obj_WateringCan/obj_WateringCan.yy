@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_tomato",
+  "%Name":"obj_WateringCan",
   "eventList":[],
   "managed":true,
-  "name":"obj_tomato",
+  "name":"obj_WateringCan",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_tomato",
-    "path":"sprites/spr_tomato/spr_tomato.yy",
+    "name":"spr_WateringCan",
+    "path":"sprites/spr_WateringCan/spr_WateringCan.yy",
   },
   "spriteMaskId":null,
   "visible":true,
