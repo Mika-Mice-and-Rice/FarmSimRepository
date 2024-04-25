@@ -111,5 +111,8 @@ switch (array_get(global.inventory_Array, value)) {
 	case 8:
 	 return spr_Wheat;
 	 break;
+	 case 9:
+	 return spr_WateringCan;
+	 break;
 }
 }
