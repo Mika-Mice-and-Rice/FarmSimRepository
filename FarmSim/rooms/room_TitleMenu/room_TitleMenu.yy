@@ -12,7 +12,6 @@
     {"name":"inst_55B027F9","path":"rooms/room_TitleMenu/room_TitleMenu.yy",},
     {"name":"inst_E5E920D","path":"rooms/room_TitleMenu/room_TitleMenu.yy",},
     {"name":"inst_3D125847","path":"rooms/room_TitleMenu/room_TitleMenu.yy",},
-    {"name":"inst_16CD55A","path":"rooms/room_TitleMenu/room_TitleMenu.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -23,7 +22,6 @@
         {"$GMRInstance":"","%Name":"inst_55B027F9","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_55B027F9","objectId":{"name":"Exit","path":"objects/Exit/Exit.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":13.0,"scaleX":1.9,"scaleY":1.6,"x":64.0,"y":614.0,},
         {"$GMRInstance":"","%Name":"inst_E5E920D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_E5E920D","objectId":{"name":"obj_NewGame","path":"objects/obj_NewGame/obj_NewGame.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":28.9375,"scaleY":7.343751,"x":11.0,"y":54.0,},
         {"$GMRInstance":"","%Name":"inst_3D125847","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3D125847","objectId":{"name":"Credits","path":"objects/Credits/Credits.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":9.0,"scaleX":27.0,"scaleY":5.0,"x":64.78795,"y":458.0118,},
-        {"$GMRInstance":"","%Name":"inst_16CD55A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_16CD55A","objectId":{"name":"Controls","path":"objects/Controls/Controls.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":-2.5632296,"scaleX":23.0,"scaleY":5.0,"x":896.0,"y":640.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4278190080,"depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],

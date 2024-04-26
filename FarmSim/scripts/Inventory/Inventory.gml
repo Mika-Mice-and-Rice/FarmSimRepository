@@ -112,7 +112,11 @@ switch (array_get(global.inventory_Array, value)) {
 	 return spr_Wheat;
 	 break;
 	 case 9:
+<<<<<<< Updated upstream
 	 return spr_WateringCan;
+=======
+	 return spr_carrot;
+>>>>>>> Stashed changes
 	 break;
 }
 }

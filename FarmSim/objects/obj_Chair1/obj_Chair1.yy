@@ -1,7 +1,17 @@
 {
   "$GMObject":"",
+<<<<<<< Updated upstream:FarmSim/objects/obj_Chair1/obj_Chair1.yy
   "%Name":"obj_Chair1",
   "eventList":[],
+=======
+  "%Name":"obj_crop",
+  "eventList":[
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":{"name":"obj_Wall","path":"objects/obj_Wall/obj_Wall.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
+>>>>>>> Stashed changes:FarmSim/objects/obj_crop/obj_crop.yy
   "managed":true,
   "name":"obj_Chair1",
   "overriddenProperties":[],
@@ -26,10 +36,17 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
+<<<<<<< Updated upstream:FarmSim/objects/obj_Chair1/obj_Chair1.yy
   "solid":false,
   "spriteId":{
     "name":"spr_Chair1",
     "path":"sprites/spr_Chair1/spr_Chair1.yy",
+=======
+  "solid":true,
+  "spriteId":{
+    "name":"spr_seedling",
+    "path":"sprites/spr_seedling/spr_seedling.yy",
+>>>>>>> Stashed changes:FarmSim/objects/obj_crop/obj_crop.yy
   },
   "spriteMaskId":null,
   "visible":true,

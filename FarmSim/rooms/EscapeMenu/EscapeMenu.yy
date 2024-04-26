@@ -1,7 +1,7 @@
 {
   "$GMRoom":"",
   "%Name":"EscapeMenu",
-  "creationCodeFile":"",
+  "creationCodeFile":"rooms/EscapeMenu/RoomCreationCode.gml",
   "inheritCode":false,
   "inheritCreationOrder":false,
   "inheritLayers":false,
