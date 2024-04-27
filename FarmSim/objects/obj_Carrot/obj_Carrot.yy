@@ -27,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_Carrot",
+    "path":"sprites/spr_Carrot/spr_Carrot.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
