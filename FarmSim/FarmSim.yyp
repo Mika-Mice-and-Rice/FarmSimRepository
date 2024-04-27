@@ -98,7 +98,6 @@
     {"id":{"name":"room_Town","path":"rooms/room_Town/room_Town.yy",},},
     {"id":{"name":"room_WestForest","path":"rooms/room_WestForest/room_WestForest.yy",},},
     {"id":{"name":"SettingsMenu","path":"rooms/SettingsMenu/SettingsMenu.yy",},},
-    {"id":{"name":"create_textbox","path":"scripts/create_textbox/create_textbox.yy",},},
     {"id":{"name":"Dialogue","path":"scripts/Dialogue/Dialogue.yy",},},
     {"id":{"name":"Inventory","path":"scripts/Inventory/Inventory.yy",},},
     {"id":{"name":"Popup","path":"scripts/Popup/Popup.yy",},},
