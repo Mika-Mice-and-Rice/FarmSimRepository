@@ -6,8 +6,8 @@
   "name":"obj_WateringCan",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"tools",
+    "path":"folders/Objects/tools.yy",
   },
   "parentObjectId":null,
   "persistent":false,

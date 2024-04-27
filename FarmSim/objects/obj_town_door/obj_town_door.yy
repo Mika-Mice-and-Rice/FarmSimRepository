@@ -9,8 +9,8 @@
   "name":"obj_town_door",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"buildings",
+    "path":"folders/Objects/buildings.yy",
   },
   "parentObjectId":null,
   "persistent":false,

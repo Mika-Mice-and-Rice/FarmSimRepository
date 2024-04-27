@@ -6,8 +6,8 @@
   "name":"obj_Carrot",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"crops",
+    "path":"folders/Objects/crops.yy",
   },
   "parentObjectId":null,
   "persistent":false,

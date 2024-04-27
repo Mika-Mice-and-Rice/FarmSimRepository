@@ -1,15 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"obj_wheat",
-  "eventList":[],
+  "%Name":"obj_Dialog_Sample_A",
+  "eventList":[
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_wheat",
+  "name":"obj_Dialog_Sample_A",
   "overriddenProperties":[],
   "parent":{
-    "name":"crops",
-    "path":"folders/Objects/crops.yy",
+    "name":"important",
+    "path":"folders/Objects/important.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"DialogueParent",
+    "path":"objects/DialogueParent/DialogueParent.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -27,10 +32,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_Wheat",
-    "path":"sprites/spr_Wheat/spr_Wheat.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

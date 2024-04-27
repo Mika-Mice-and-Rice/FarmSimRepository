@@ -10,8 +10,8 @@
   "name":"obj_Dropped_Item",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"important",
+    "path":"folders/Objects/important.yy",
   },
   "parentObjectId":null,
   "persistent":false,

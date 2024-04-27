@@ -19,20 +19,23 @@ if (showing_dialog == true)
 	text_x = sprite_get_width(current_dialog.sprite) + (padding * 2);
 	
 	draw_set_alpha(alpha);
-}
+
 
 draw_set_alpha(alpha);
 
 //draw textbox
 draw_set_color(c_black);
-draw_set_rectangle(0, 0, display_get_gui_width(), height, false);
+draw_rectangle(0, 0, display_get_gui_width(), height, false);
 
 //draw border
+draw_set_color(c_white);
 draw_rectangle(border, border, display_get_gui_width() - border, height - border, false);
 
 //fill box
+draw_set_color(c_black);
 draw_rectangle((border * 2), (border * 2), display_get_gui_width() - (border * 2), height - (border * 2), false);
 
+}
 //draw sprite
 if(current_dialog.sprite != -1)
 {
