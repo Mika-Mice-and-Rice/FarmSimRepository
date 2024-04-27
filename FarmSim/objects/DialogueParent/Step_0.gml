@@ -2,7 +2,7 @@
 // You can write your code in this editor
 if (showing_dialog == false) {
 	if (dialog.count() <= 0) {
-		instance.destroy();
+		instance_destroy();
 		return;
 	}
 	

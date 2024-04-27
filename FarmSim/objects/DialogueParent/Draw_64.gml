@@ -31,10 +31,8 @@ draw_rectangle(border, border, display_get_gui_width() - border, height - border
 draw_set_color(c_black);
 draw_rectangle((border * 2), (border * 2), display_get_gui_width() - (border * 2), height - (border * 2), false);
 
-
 //draw sprite
-if(current_dialog.sprite != -1)
-{
+if(current_dialog.sprite != -1) {
 	draw_sprite(current_dialog.sprite, 0, border * 3, border * 3);	
 }
 
