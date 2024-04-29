@@ -5,3 +5,4 @@ scythe_capacity = 1;
 trowel_capacity = 1;
 global.prevRoom = "room_TitleMenu";
 global.prevOverworld = "room_Farm";
+crop_id = 0;

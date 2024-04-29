@@ -6,8 +6,18 @@ if point_in_rectangle(mouse_x, mouse_y, x - 32, y - 32, x + 32, y + 32)
 		if mouse_check_button_pressed(mb_left)
 		{
 			instance_destroy();
-			Inventory_Add(7, 2, 0);
+			switch (crop_id) {
+		    case 0:
+		        crop_id = 0;
+				Inventory_Add(7, 2, 0);
+		        break;
+			case 1:
+		        crop_id = 1;
+				Inventory_Add(9, 2, 0);
+		        break;
+		    
 		}
+	}
 		
 		if !audio_is_playing(snd_menu_click)
 		{
