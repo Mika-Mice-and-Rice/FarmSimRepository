@@ -8,8 +8,8 @@
   "name":"obj_Dialog_Sample_A",
   "overriddenProperties":[],
   "parent":{
-    "name":"important",
-    "path":"folders/Objects/important.yy",
+    "name":"Dialog",
+    "path":"folders/Objects/Dialog.yy",
   },
   "parentObjectId":{
     "name":"DialogueParent",
