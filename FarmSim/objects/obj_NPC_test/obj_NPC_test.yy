@@ -1,20 +1,19 @@
 {
   "$GMObject":"",
-  "%Name":"obj_Dialog_Sample_A",
+  "%Name":"obj_NPC_test",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":69,"eventType":10,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_Dialog_Sample_A",
+  "name":"obj_NPC_test",
   "overriddenProperties":[],
   "parent":{
-    "name":"Dialog",
-    "path":"folders/Objects/Dialog.yy",
+    "name":"NPCs",
+    "path":"folders/Objects/NPCs.yy",
   },
-  "parentObjectId":{
-    "name":"DialogueParent",
-    "path":"objects/DialogueParent/DialogueParent.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -32,7 +31,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_NPC_test",
+    "path":"sprites/spr_NPC_test/spr_NPC_test.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

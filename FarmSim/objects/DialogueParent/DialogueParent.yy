@@ -10,8 +10,8 @@
   "name":"DialogueParent",
   "overriddenProperties":[],
   "parent":{
-    "name":"important",
-    "path":"folders/Objects/important.yy",
+    "name":"Dialog",
+    "path":"folders/Objects/Dialog.yy",
   },
   "parentObjectId":null,
   "persistent":false,

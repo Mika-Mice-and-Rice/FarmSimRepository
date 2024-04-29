@@ -37,7 +37,8 @@ if(current_dialog.sprite != -1) {
 }
 
 draw_set_color(c_white);
-draw_text_ext(text_x, text_y, current_dialog.message, 16, display_get_gui_width() - 192);
+draw_set_font(TextFont);
+draw_text_ext(text_x, text_y, current_dialog.message, 45, display_get_gui_width() - 192);
 
 alpha = lerp(alpha, 1, 0.06);
 }

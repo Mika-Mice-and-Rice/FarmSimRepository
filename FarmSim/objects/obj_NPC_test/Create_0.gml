@@ -5,5 +5,6 @@ aimage_speed = 0;
 popup_id = instance_create_layer(x, y - 64, layer, obj_popup);
 radius = 65;
 
+InRange = false;
 interacting = false;
 popup_id.visible = false;
