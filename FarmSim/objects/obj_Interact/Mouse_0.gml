@@ -13,4 +13,3 @@ if point_in_rectangle(mouse_x, mouse_y, x - 32, y - 32, x + 32, y + 32)
 	}
 }
 
-instance_create_layer(0, 0, "Instances", obj_Dialog_Sample_A);
