@@ -91,6 +91,7 @@
     {"id":{"name":"obj_wood_Floor","path":"objects/obj_wood_Floor/obj_wood_Floor.yy",},},
     {"id":{"name":"Resume","path":"objects/Resume/Resume.yy",},},
     {"id":{"name":"Settings","path":"objects/Settings/Settings.yy",},},
+    {"id":{"name":"partsys_Rain","path":"particles/partsys_Rain/partsys_Rain.yy",},},
     {"id":{"name":"ControlsTutorialMenu","path":"rooms/ControlsTutorialMenu/ControlsTutorialMenu.yy",},},
     {"id":{"name":"CreditsMenu","path":"rooms/CreditsMenu/CreditsMenu.yy",},},
     {"id":{"name":"EscapeMenu","path":"rooms/EscapeMenu/EscapeMenu.yy",},},
