@@ -108,6 +108,7 @@
     {"id":{"name":"Dialogue","path":"scripts/Dialogue/Dialogue.yy",},},
     {"id":{"name":"Inventory","path":"scripts/Inventory/Inventory.yy",},},
     {"id":{"name":"Popup","path":"scripts/Popup/Popup.yy",},},
+    {"id":{"name":"Sell","path":"scripts/Sell/Sell.yy",},},
     {"id":{"name":"snd_hit_stone","path":"sounds/snd_hit_stone/snd_hit_stone.yy",},},
     {"id":{"name":"snd_hit_whiff","path":"sounds/snd_hit_whiff/snd_hit_whiff.yy",},},
     {"id":{"name":"snd_hit_wood","path":"sounds/snd_hit_wood/snd_hit_wood.yy",},},

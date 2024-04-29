@@ -66,7 +66,6 @@ function Inventory_Subtract(ID, quant)
 				
 				//if its zero left, removes the item from the array
 				if(array_get(global.inventory_Array_Quanity, i) = 0){
-					
 					array_set(global.inventory_Array, i, 0);
 					array_set(global.inventory_Array_Is_Tool, i, 0);
 				}
@@ -111,12 +110,11 @@ switch (array_get(global.inventory_Array, value)) {
 	case 8:
 	 return spr_Wheat;
 	 break;
-	 case 9:
-	
-	return spr_WateringCan;
+	case 9:
+	 return spr_WateringCan;
 
 	 return spr_carrot;
 
 	 break;
-}
+		}
 }
