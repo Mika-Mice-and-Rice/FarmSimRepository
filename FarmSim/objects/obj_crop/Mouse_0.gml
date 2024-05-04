@@ -15,6 +15,18 @@ if point_in_rectangle(mouse_x, mouse_y, x - 32, y - 32, x + 32, y + 32)
 		        crop_id = 1;
 				Inventory_Add(9, 2, 0);
 		        break;
+			case 2:
+		        crop_id = 2;
+				Inventory_Add(6, 2, 0);
+		        break;
+			case 3:
+		        crop_id = 3;
+				Inventory_Add(8, 3, 0);
+		        break;
+			case 4:
+		        crop_id = 4;
+				Inventory_Add(5, 3, 0);
+		        break;
 		    
 		}
 	}

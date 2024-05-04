@@ -15,6 +15,18 @@ if (mouse_check_button_pressed(mb_right)) {
 		        new_crop.crop_id = 1;
 				Inventory_Subtract(9, 1);
 		        break;
+			case 2:
+		        new_crop.crop_id = 2;
+				Inventory_Subtract(6, 1);
+		        break;
+			case 3:
+		        new_crop.crop_id = 3;
+				Inventory_Subtract(8, 1);
+		        break;
+			case 4:
+		        new_crop.crop_id = 4;
+				Inventory_Subtract(5, 1);
+		        break;
 		    
 		}
         
