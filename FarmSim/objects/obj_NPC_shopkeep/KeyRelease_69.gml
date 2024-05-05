@@ -4,6 +4,6 @@ if (global.Talking = false)
 {
 	if (InRange = true)
 	{
-		instance_create_layer(0, 0, "Instances", obj_Dialog_Sample_B);
+		instance_create_layer(0, 0, "Instances", obj_dialog_shopkeep);
 	}
 }
