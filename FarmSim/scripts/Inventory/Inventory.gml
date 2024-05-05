@@ -40,6 +40,13 @@ for (var i = 0; i < 15 && open = false; ++i) {
 	{
 	//no room code
 	//creates a dropped item if there is no room in the inventory
+		var dropped = instance_create_depth(obj_Player.x, obj_Player.y, "Drops", obj_Dropped_Item);
+		dropped.ID = ID;
+		dropped.Quanity = quant;
+		dropped.Is_tool = isTool;
+		dropped.alarm[0] = .5*room_speedl;
+		dropped.sprite_index = (Inventory_Get_Sprite(ID));
+		//object_set_sprite(dropped, (Inventory_Get_Sprite(ID)));
 		//new objecter = instance_create_layer(obj_Player.x, obj_Player.y, "Drops", obj_Dropped_Item);
 		//objecter.ID = ID;
 		//objecter.Quanity = quant;
