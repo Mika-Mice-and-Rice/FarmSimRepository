@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_Settings",
-    "path":"sprites/spr_Settings/spr_Settings.yy",
+    "name":"spr_options",
+    "path":"sprites/spr_options/spr_options.yy",
   },
   "spriteMaskId":null,
   "visible":true,

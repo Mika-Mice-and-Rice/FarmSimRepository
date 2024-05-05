@@ -29,7 +29,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_newgame",
+    "path":"sprites/spr_newgame/spr_newgame.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
