@@ -1,3 +1,4 @@
+/*
 if (room = room_TitleMenu)
 {
 if mouse_check_button_pressed(mb_left)

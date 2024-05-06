@@ -5,7 +5,7 @@ function Sell(){
 		if(3 < (global.inventory_Array[bby]) &&  (global.inventory_Array[bby]) < 10)
 		{
 			//adds 1 for each item sold
-			global.currency = global.currency + global.inventory_Array_Quanity[bby];
+			global.currency = global.currency + global.inventory_Array_Quanity[bby]
 			//removes it from the inventory
 			Inventory_Subtract(global.inventory_Array[bby],global.inventory_Array_Quanity[bby])
 		}
