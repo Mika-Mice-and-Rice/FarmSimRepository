@@ -7,3 +7,5 @@ corn = 5
 potato = 6
 tomato = 7
 wheat = 8
+carrot = 9
+watering can = 10
