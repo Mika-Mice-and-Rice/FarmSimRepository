@@ -221,8 +221,8 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"room_TitleMenu","path":"rooms/room_TitleMenu/room_TitleMenu.yy",},},
     {"roomId":{"name":"room_Farm","path":"rooms/room_Farm/room_Farm.yy",},},
+    {"roomId":{"name":"room_TitleMenu","path":"rooms/room_TitleMenu/room_TitleMenu.yy",},},
     {"roomId":{"name":"ControlsTutorialMenu","path":"rooms/ControlsTutorialMenu/ControlsTutorialMenu.yy",},},
     {"roomId":{"name":"CreditsMenu","path":"rooms/CreditsMenu/CreditsMenu.yy",},},
     {"roomId":{"name":"EscapeMenu","path":"rooms/EscapeMenu/EscapeMenu.yy",},},
