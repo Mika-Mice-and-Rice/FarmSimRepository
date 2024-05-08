@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":true,
   "spriteId":{
-    "name":"spr_Wall",
-    "path":"sprites/spr_Wall/spr_Wall.yy",
+    "name":"spr_Wall_fx",
+    "path":"sprites/spr_Wall_fx/spr_Wall_fx.yy",
   },
   "spriteMaskId":null,
   "visible":true,

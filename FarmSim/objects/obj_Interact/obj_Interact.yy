@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":true,
   "spriteId":{
-    "name":"spr_Interact",
-    "path":"sprites/spr_Interact/spr_Interact.yy",
+    "name":"spr_interact_fx",
+    "path":"sprites/spr_interact_fx/spr_interact_fx.yy",
   },
   "spriteMaskId":null,
   "visible":true,
