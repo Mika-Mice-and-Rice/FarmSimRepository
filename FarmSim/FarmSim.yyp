@@ -72,6 +72,7 @@
     {"id":{"name":"obj_inventory_select","path":"objects/obj_inventory_select/obj_inventory_select.yy",},},
     {"id":{"name":"obj_Inventory","path":"objects/obj_Inventory/obj_Inventory.yy",},},
     {"id":{"name":"obj_log","path":"objects/obj_log/obj_log.yy",},},
+    {"id":{"name":"obj_mouse_pos","path":"objects/obj_mouse_pos/obj_mouse_pos.yy",},},
     {"id":{"name":"obj_NewGame","path":"objects/obj_NewGame/obj_NewGame.yy",},},
     {"id":{"name":"obj_NPC_shopkeep","path":"objects/obj_NPC_shopkeep/obj_NPC_shopkeep.yy",},},
     {"id":{"name":"obj_NPC_taxman","path":"objects/obj_NPC_taxman/obj_NPC_taxman.yy",},},
@@ -221,8 +222,8 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"room_Farm","path":"rooms/room_Farm/room_Farm.yy",},},
     {"roomId":{"name":"room_TitleMenu","path":"rooms/room_TitleMenu/room_TitleMenu.yy",},},
+    {"roomId":{"name":"room_Farm","path":"rooms/room_Farm/room_Farm.yy",},},
     {"roomId":{"name":"ControlsTutorialMenu","path":"rooms/ControlsTutorialMenu/ControlsTutorialMenu.yy",},},
     {"roomId":{"name":"CreditsMenu","path":"rooms/CreditsMenu/CreditsMenu.yy",},},
     {"roomId":{"name":"EscapeMenu","path":"rooms/EscapeMenu/EscapeMenu.yy",},},

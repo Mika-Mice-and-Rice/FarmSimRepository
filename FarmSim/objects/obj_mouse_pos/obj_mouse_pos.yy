@@ -1,13 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_NewGame",
+  "%Name":"obj_mouse_pos",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_NewGame",
+  "name":"obj_mouse_pos",
   "overriddenProperties":[],
   "parent":{
     "name":"room transitions",
@@ -31,10 +29,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_newgame",
-    "path":"sprites/spr_newgame/spr_newgame.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
