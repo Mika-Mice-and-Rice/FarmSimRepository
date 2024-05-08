@@ -44,8 +44,8 @@
   },
   "origin":4,
   "parent":{
-    "name":"GameView",
-    "path":"folders/Sprites/GameView.yy",
+    "name":"Sprites",
+    "path":"folders/Sprites.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

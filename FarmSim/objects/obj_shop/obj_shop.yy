@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_sell",
-    "path":"sprites/spr_sell/spr_sell.yy",
+    "name":"spr_shopTable",
+    "path":"sprites/spr_shopTable/spr_shopTable.yy",
   },
   "spriteMaskId":null,
   "visible":true,
