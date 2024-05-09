@@ -1,15 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_Fence",
+  "%Name":"obj_roadsign",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":{"name":"obj_Player","path":"objects/obj_Player/obj_Player.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_Fence",
+  "name":"obj_roadsign",
   "overriddenProperties":[],
   "parent":{
-    "name":"buildings",
-    "path":"folders/Objects/buildings.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":true,
   "spriteId":{
-    "name":"spr_Fence",
-    "path":"sprites/spr_Fence/spr_Fence.yy",
+    "name":"spr_roadsign",
+    "path":"sprites/spr_roadsign/spr_roadsign.yy",
   },
   "spriteMaskId":null,
   "visible":true,
