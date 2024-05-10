@@ -3,6 +3,7 @@
 if(vis = true && obj_Camera.y < y)
 {
 y = y - 12; 
+x = obj_Camera.x ;
 }
 if(vis = false){
 x = obj_Camera.x ;
