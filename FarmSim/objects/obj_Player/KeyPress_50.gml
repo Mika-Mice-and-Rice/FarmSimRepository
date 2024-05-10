@@ -1,4 +1,4 @@
-if (keyboard_check_pressed(ord("2"))){
+/*if (keyboard_check_pressed(ord("2"))){
 	sprite_index = spr_PlayerTool1;
 }
 
