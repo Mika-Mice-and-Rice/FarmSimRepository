@@ -105,6 +105,7 @@
     {"id":{"name":"obj_WestForestToFarm","path":"objects/obj_WestForestToFarm/obj_WestForestToFarm.yy",},},
     {"id":{"name":"obj_wheat","path":"objects/obj_wheat/obj_wheat.yy",},},
     {"id":{"name":"obj_wood_Floor","path":"objects/obj_wood_Floor/obj_wood_Floor.yy",},},
+    {"id":{"name":"obj_menu","path":"objects/obj_menu/obj_menu.yy",},},
     {"id":{"name":"Resume","path":"objects/Resume/Resume.yy",},},
     {"id":{"name":"Settings","path":"objects/Settings/Settings.yy",},},
     {"id":{"name":"partsys_Rain","path":"particles/partsys_Rain/partsys_Rain.yy",},},
