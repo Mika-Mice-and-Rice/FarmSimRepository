@@ -3,7 +3,7 @@ if point_in_rectangle(mouse_x, mouse_y, x - 32, y - 32, x + 32, y + 32)
 	//if player character is close to the object
 	if point_distance(obj_Player.x, obj_Player.y, x, y) <= 100
 	{
-		if mouse_check_button_pressed(mb_left)
+		if mouse_check_button_pressed(mb_left) && growth_stage = 3
 		{
 			instance_destroy();
 			switch (crop_id) {

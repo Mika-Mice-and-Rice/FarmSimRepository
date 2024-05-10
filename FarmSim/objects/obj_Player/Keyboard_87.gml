@@ -2,8 +2,9 @@ if(isPaused = false)
 {
 	if (global.Talking = false)
 		{
-			direction = 90;
-			speed = 5;
+			//direction = 90;
+			//speed = 5;
+			y = y - 5;
 	
 	//sound effects 
 	if place_meeting(x, y, obj_grass_Floor) 

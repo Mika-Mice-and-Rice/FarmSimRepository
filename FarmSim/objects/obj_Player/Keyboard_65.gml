@@ -2,8 +2,10 @@ if(isPaused = false)
 {
 	if (global.Talking = false)
 		{
-			direction = 180;
-			speed = 5;
+			//direction = 180;
+			//speed = 5;
+			x = x - 5;
+			
 	if place_meeting(x,y,obj_grass_Floor) 
 	{
 		if !audio_is_playing(snd_walk_dirt_1) && !audio_is_playing(snd_walk_dirt_2)

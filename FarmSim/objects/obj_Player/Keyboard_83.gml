@@ -2,8 +2,9 @@ if(isPaused = false)
 {
 	if (global.Talking = false)
 		{
-			direction = 270;
-			speed = 5;
+			//direction = 270;
+			//speed = 5;
+			y = y + 5;
 			
 	if place_meeting(x,y,obj_grass_Floor) 
 	{

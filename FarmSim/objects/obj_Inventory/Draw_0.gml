@@ -1,4 +1,7 @@
 draw_self();
+draw_text_color(obj_Camera.x - 550, obj_Camera.y - 325, string(global.currency),
+	c_yellow, c_yellow, c_yellow, c_yellow, 1);
+draw_sprite_ext(spr_coin, 1, obj_Camera.x - 585, obj_Camera.y - 315, 1, 1, 0, c_white, 1);
 //draw command for sprites
 for (var i = 0; i < 15; ++i) {
 	switch (i) {
